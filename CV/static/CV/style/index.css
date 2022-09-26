@@ -145,6 +145,9 @@ span {
 
 .name__hello {
   font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .name__description {
