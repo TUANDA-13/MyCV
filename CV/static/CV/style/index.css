@@ -529,3 +529,21 @@ body {
     top: 5px;
   }
 } */
+
+@media only screen and (max-width: 540px) {
+  .navbar-list {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sclub .row {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (width: 768px) {
+  .sclub .row {
+    flex-direction: row;
+  }
+}
